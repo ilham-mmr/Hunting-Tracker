@@ -888,6 +888,7 @@ public class HuntingMainFrame extends javax.swing.JFrame {
         if (userFileName == null) {
             JOptionPane.showMessageDialog(HuntingMainFrame.this, "Could not print to txt file", "Error", JOptionPane.ERROR_MESSAGE);
         } else {
+            JFileChooser fileChooser = new JFileChooser();
             fileChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
             fileChooser.setFileFilter( new FolderFilter() );
             if (fileChooser.showSaveDialog(HuntingMainFrame.this) == JFileChooser.APPROVE_OPTION) {

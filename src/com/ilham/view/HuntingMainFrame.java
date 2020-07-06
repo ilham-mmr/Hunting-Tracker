@@ -141,6 +141,7 @@ public class HuntingMainFrame extends javax.swing.JFrame {
         jPopupMenu1.add(updateRow);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("YOUR HUNTING TRACKER");
         setResizable(false);
 
         basePanel.setBackground(new java.awt.Color(61, 61, 61));
